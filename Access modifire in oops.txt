@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Hero{
+    public:
+    int age;
+    char Name;
+};
+int main () {
+    Hero kamal;
+    kamal.age = 32;
+    
+    cout<<kamal.age;
+}
